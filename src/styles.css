@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow-x: hidden;
+}
+
+.select-container {
+  margin-top: 20px;
+}
+
+.breed-select {
+  width: 150px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cat-info {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.loader {
+  font-size: 18px;
+  font-weight: 600;
+}
+.is-hidden {
+  display: none;
+}
+.error {
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+}
+
+
